@@ -64,12 +64,16 @@
 #menu {
   display: none;
   color: white;
-  background-color: rgb(50, 14, 182);
+  background-color: rgb(34, 189, 20);
   padding: 10px 15px;
   border-radius: 10px;
   cursor: pointer;
   font-size: 2rem;
   float: right;
+}
+
+.text-section{
+  font-size: 2rem;
 }
 
 
@@ -85,7 +89,7 @@
     border-radius: 10px;
     text-align: right;
     padding: 0px 100px;
-    box-shadow: 0 4px 10px rgba(43, 7, 201, 0.3);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   }
 
   .navbar ul.show {
@@ -139,12 +143,50 @@
   list-style: none;
 }
 .text-section li:nth-child(1) {
-  font-size: 5rem;
+  font-size: 3rem;
   color: aliceblue;
 }
 .text-section li:nth-child(2),
 .text-section li:nth-child(3) {
-  font-size: 2rem;
+  font-size: 1rem;
+  color: aliceblue;
+}/* IMAGE SECTION */
+.image-section {
+  grid-column: 1/5;
+  text-align: center;
+  padding-top: 4rem;
+}
+.image-section img {
+  border-radius: 50%;
+  width: 85%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+}
+.image-section img:hover {
+  transform: rotate(50deg);
+}
+
+/* TEXT SECTION */
+.text-section {
+  grid-column: 5/11;
+  display: grid;
+  place-content: center;
+}
+.text-section ul {
+  list-style: none;
+}
+.text-section li:nth-child(1) {
+  font-size: 3rem;
+  color: aliceblue;
+}
+.text-section li:nth-child(2)
+{font-size: 3rem;
+  color: aliceblue;
+
+}
+
+.text-section li:nth-child(3) {
+  font-size: 1rem;
   color: aliceblue;
 }
 

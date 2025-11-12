@@ -11,7 +11,7 @@
   height: 100vh;
 }
 
-/* 🌟 NAVBAR SECTION */
+/* NAVBAR SECTION */
 .navbar {
   grid-column: 1/11;
   padding: 14px;
@@ -64,7 +64,7 @@
 #menu {
   display: none;
   color: white;
-  background-color: rgb(50, 14, 182);
+  background-color: rgb(138, 19, 88);
   padding: 10px 15px;
   border-radius: 10px;
   cursor: pointer;
@@ -85,7 +85,7 @@
     border-radius: 10px;
     text-align: right;
     padding: 0px 100px;
-    box-shadow: 0 4px 10px rgba(43, 7, 201, 0.3);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   }
 
   .navbar ul.show {
@@ -140,12 +140,12 @@
 }
 .text-section li:nth-child(1) {
   font-size: 5rem;
-  color: aliceblue;
+  color: rgb(156, 13, 96);
 }
 .text-section li:nth-child(2),
 .text-section li:nth-child(3) {
   font-size: 2rem;
-  color: aliceblue;
+  color: rgb(231, 74, 179);
 }
 
 /* FOOTER */
